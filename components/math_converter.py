@@ -24,7 +24,7 @@ class MathConverter:
             # self.df = self.df.append(data, ignore_index=True)
             new_row_df = pd.DataFrame(data, index=[0])
             self.df = pd.concat([self.df, new_row_df], ignore_index=True)
-            self.df .to_csv("D:/freelance/project2/src/output/data.csv")
+            self.df .to_csv("output/data.csv")
             
             return percentage
             

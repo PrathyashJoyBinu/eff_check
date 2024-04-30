@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from streamlit_card import card
+
 
 from components.data_loader import DataOperator
 
