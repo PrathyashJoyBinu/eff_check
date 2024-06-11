@@ -9,7 +9,7 @@ data_operator = DataOperator()
 
 def Home():
     
-    st.title("Dashboard")
+    st.title("Dashboard.")
     st.subheader("")
     df=data_operator.display_chart()
     anomalyCount= data_operator.threshold_breaker()
