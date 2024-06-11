@@ -51,7 +51,7 @@ class MathConverter:
     def avg_10_days(self):
         try:
       
-            avg_val =self.df["Moving_average"][-11:-1] 
+            avg_val =self.df["Specific_air_flow"][-11:-1] 
             print("10 Days avg",avg_val.mean())
             return avg_val.mean()
         
